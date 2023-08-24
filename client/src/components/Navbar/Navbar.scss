@@ -1,0 +1,67 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* To make the navbar stretch across the entire width */
+  height: 70px;
+  background-color: #f0f0f0;
+  z-index: 1000; /* Adjust the z-index to control the stacking order */
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Rest of your existing styles for the wrapper... */
+  
+
+
+     
+
+     .item {
+        display: flex;
+        align-items: center;
+     }
+
+     .left{
+      display: flex;
+      align-items: center;
+      gap: 25px;
+     }
+     .center{
+      font-size: 30px;
+      
+     }
+     .right{
+       display: flex;
+       align-items: center;
+       gap: 25px;
+
+       .icons{
+        display: flex;
+        gap: 15px;
+        color: #777;
+        cursor: pointer;
+
+        .cartIcon{
+            position: relative;
+          span{
+            font-size: 12px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #2879fe;
+            color: white;
+            position: absolute;
+            right: -10px;
+            top: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }  
+        }
+       }
+     }
+    }
+
+}
