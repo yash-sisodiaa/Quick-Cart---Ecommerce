@@ -1,4 +1,4 @@
-# LIVE DEMO - https://singular-jalebi-83cf04.netlify.app/
+# LIVE DEMO - https://yashstore.netlify.app
 Creating a comprehensive dashboard for an eCommerce website on GitHub involves both frontend and backend development, as well as integrating with various services. While I can't provide a full implementation here, I can offer you a basic outline of how to structure such a project. You'll need to have a good understanding of web development, programming languages, and GitHub workflows to proceed.
 
 **1. Setup and Infrastructure:**
